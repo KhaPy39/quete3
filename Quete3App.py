@@ -3,7 +3,7 @@ import streamlit as st
 from streamlit_authenticator import Authenticate
 from streamlit_option_menu import option_menu
 
-df = pd.read_csv("https://github.com/KhaPy39/quete3/blob/main/comptes.csv", on_bad_lines="skip")
+df = pd.read_csv("https://github.com/KhaPy39/quete3/blob/main/comptes.csv")
 
 dict = {"usernames": {}}
 
